@@ -626,14 +626,11 @@ input::placeholder {
 .modal-open:hover, .modal-open:focus {
     border: none;
     background-color: #404bbf;
+    fill: #ffffff;
 }
 
 .modal-x {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.modal-x:hover, .modal-x:focus {
-    fill: #ffffff;
 }
 
 .modal-form {
@@ -668,16 +665,16 @@ input::placeholder {
     border-color: #4D5AE5;
 }
 
+.modal-form-input:focus .modal-form-icon {
+    fill: #4D5AE5;
+}
+
 .modal-form-icon {
     position: absolute;
     left: 16px;
     top: 50%;
     transform: translateY(-50%);
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.modal-form-icon:focus {
-    fill: #4D5AE5;
 }
 
 .modal-comment {
