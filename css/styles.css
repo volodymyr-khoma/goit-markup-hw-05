@@ -737,17 +737,16 @@ input::placeholder {
     fill: #F4F4FD;
 }
 
-.modal-checkbox-input:checked+.modal-checkbox-label .modal-span {
+.modal-checkbox-input:checked + .modal-checkbox-label .modal-span {
     background-color: #404bbf;
     border: none;
 }
 
-.modal-checkbox-input:checked+.modal-checkbox-label .modal-span-icon {
+.modal-checkbox-input:checked + .modal-checkbox-label .modal-span-icon {
     fill: #F4F4FD;
 }
 
 .modal-span-icon {
-    fill: #000;
     transition: fill 0.3s;
 }
 
