@@ -731,7 +731,7 @@ input::placeholder {
     height: 0;
 }
 
-.modal-checkbox-input:checked + .modal-span {
+.modal-checkbox-input:checked + .modal-checkbox-label > .modal-span {
     background-color: #404bbf;
     border: none;
     fill: #F4F4FD;
