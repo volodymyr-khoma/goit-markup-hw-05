@@ -435,6 +435,10 @@ ul {
     margin-right: 120px;
 }
 
+.fsocial {
+    margin-right: 80px;
+}
+
 img {
     display: block;
 }
@@ -756,6 +760,7 @@ input::placeholder {
 
 .modal-checkbox-button {
     display: block;
+    margin: 0 auto;
     min-width: 169px;
     height: 56px;
     font-family: "Roboto", sans-serif;
